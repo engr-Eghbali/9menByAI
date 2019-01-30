@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Engr.eghbali</title>
+        
+        <link rel="stylesheet" href="styles/elements.css">
+        <script type="text/javascript" src="js/utilities_max.js"></script>
+
+    </head>
+    <body style="background-color: silver">
+
+        <div id="base">
+            <div id="reset" onclick="location.reload()">!دوباره</div>
+            <div class="element">
+                <div class="bordered small"></div>
+                <div class="bordered small" style="left: 50%"></div>
+                <div class="bordered small" style="top: 50%"></div>
+                <div class="bordered small" style="left: 50%; top: 50%"></div>
+                <div class="outer bordered"></div>
+                <div class="element">
+                    <div class="element bordered" id="middle">
+                        <div class="element">
+                            <div class="element bordered inner" id="inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="model/Model_max.js"></script>
+        <script type="text/javascript" src="view_model/rules_max.js"></script>
+        <script type="text/javascript" src="view/interface_max.js"></script>
+        <script type="text/javascript" src="view/generate_max.js"></script>
+        
+    </body>
+</html>
